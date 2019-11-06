@@ -1,0 +1,31 @@
+#bits_0, #bits_1{
+    position:fixed;
+    left:20%;
+    top:30%;
+}
+
+#text{
+    position:fixed;
+    left:20%;
+    top:45%;
+}
+
+#smoke{
+    position:fixed;
+    left:45%;
+    top:16%;
+}
+
+.header{
+    position:fixed;
+    left:40%;
+}
+
+#gradient{
+	background-image: linear-gradient(to right, rgba(87,160,211,1) 20%, red 40%, yellow);
+	
+}
+
+#blue{
+	background-color: rgba(87,160,211,1);
+}
