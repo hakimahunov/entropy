@@ -16,6 +16,12 @@
     top:16%;
 }
 
+#diagram{
+    position:fixed;
+    left:18%;
+    top:55%;
+}
+
 .header{
     position:fixed;
     left:40%;

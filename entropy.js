@@ -1,4 +1,5 @@
 function startAnimation(){
+	$("button").attr("disabled", true);
 	var bitsArray = [
 					"1111 0000 1010 1100 0011 1001 0110 0101",
 					"1111 0000 1011 0111 1100 1111 0110 0101",
@@ -22,9 +23,8 @@ function startAnimation(){
 					"1111 0000 0011 0111 1100 0011 0110 1010"];
 	
 	setTimeout(function() {$("#blue").fadeOut(4000); $("pre").show();}, 3000);
-	setTimeout(function() {$("#smoke").fadeIn(15000);}, 3000);
-	
-	
+	setTimeout(function() {$("#smoke").fadeIn(15000); $("#diagram").fadeIn(5000);}, 3000);
+		
 	var index = 0;
 	setInterval(function(){
 		if (index > bitsArray.length - 1) index = 0;
